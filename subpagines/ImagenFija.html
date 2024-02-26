@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Imagen Fija en la Esquina Superior Izquierda</title>
+<style>
+  /* Aplicar estilos al elemento de la imagen */
+  #fixed-image {
+    position: fixed; /* Hacer que la imagen sea fija */
+    top: 0; /* Fijar en la parte superior */
+    left: 0; /* Fijar en la parte izquierda */
+    z-index: 9999; /* Asegurar que esté en la parte superior */
+  }
+</style>
+</head>
+<body>
+  <!-- Agregar la imagen como un elemento de imagen -->
+  <img id="fixed-image" src="img_tree.png" >
+  
+  <!-- Aquí va el resto del contenido de tu página -->
+  <div style="padding-left: 200px;"> <!-- Ejemplo de un padding para evitar que el contenido esté detrás de la imagen -->
+    <h1>Contenido de la Página</h1>
+    <p>Este es el contenido de tu página web.</p>
+  </div>
+</body>
+</html>

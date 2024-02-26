@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Borde Redondeado con Texto y Color Rojo</title>
+<style>
+  /* Estilo del contenedor con borde redondeado */
+  body {
+    display: flex; /* Usar flexbox para centrar contenido */
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    height: 100vh; /* Utilizar toda la altura de la ventana del navegador */
+    margin: 0; /* Eliminar márgenes predeterminados del cuerpo */
+  }
+
+  .borde-redondeado {
+    border: 2px solid red; /* Borde sólido de 2px de color rojo */
+    border-radius: 10px; /* Radio de borde de 10px para redondear */
+    padding: 10px; /* Relleno interno del contenedor */
+    width: fit-content; /* Ajustar el ancho del contenedor al contenido */
+  }
+</style>
+</head>
+<body>
+  <!-- Contenedor con borde redondeado y texto -->
+  <div class="borde-redondeado">
+    Este es un texto con borde redondeado y color rojo.
+  </div>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Estilos de Borde en Texto</title>
+<style>
+  /* Estilo de borde negro sólido alrededor del texto */
+  .borde-negro {
+    border: 2px solid black;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  /* Estilo de borde negro más fino alrededor del texto */
+  .borde-fino {
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  /* Estilo de borde negro de puntos alrededor del texto */
+  .borde-puntos {
+    border: 2px dotted black;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  /* Estilo de doble borde negro alrededor del texto */
+  .doble-borde {
+    border: 2px double black;
+    padding: 20px; /* Aumentar el relleno para hacer espacio para el segundo borde */
+    margin-bottom: 20px;
+  }
+  
+  /* Estilo de segundo borde negro más alejado */
+  .doble-borde .segundo-borde {
+    border: 4px solid black; /* Tamaño del segundo borde */
+    padding: 10px; /* Espacio entre el primer y segundo borde */
+  }
+</style>
+</head>
+<body>
+  <!-- Texto con diferentes estilos de borde -->
+  <div class="borde-negro">Texto con borde negro sólido alrededor</div>
+  <div class="borde-fino">Texto con borde negro más fino alrededor</div>
+  <div class="borde-puntos">Texto con borde negro de puntos alrededor</div>
+  <div class="doble-borde">
+    <div class="segundo-borde">Texto con doble borde negro alrededor</div>
+  </div>
+</body>
+</html>
